@@ -1,0 +1,9 @@
+<div class = 'container container-alignment'>
+  <div class='row row-box'>
+    <a *ngFor= 'let appResource of appResources' class='col-md-4 col-hover' [attr.href]='appResource.url' >
+      <div class='dashboard-option'>
+        <h6>{{appResource.name | uppercase}}</h6>
+      </div>
+    </a>
+  </div>
+</div>

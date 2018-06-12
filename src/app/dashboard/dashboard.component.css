@@ -1,0 +1,30 @@
+.container-alignment {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.row-box {
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    padding: 30px 10px 0px;
+}
+
+.dashboard-option {
+    background-color: #007DB8;
+    border-radius: 10px;
+    padding: 30px 25px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    transition: opacity 0.3s ease-in;
+}
+
+.col-hover:hover {
+    text-decoration: none;
+}
+
+.col-hover:hover > .dashboard-option {
+    opacity: 0.7;
+}
