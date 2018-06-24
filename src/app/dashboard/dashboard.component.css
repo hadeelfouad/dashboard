@@ -8,7 +8,7 @@
 .row-box {
     background-color: #EEEEEE;
     border-radius: 10px;
-    padding: 30px 10px 0px;
+    /* padding: 30px 10px 0px; */
 }
 
 .dashboard-option {
@@ -27,4 +27,7 @@
 
 .col-hover:hover > .dashboard-option {
     opacity: 0.7;
+}
+.card-full{
+    width: 300px;
 }

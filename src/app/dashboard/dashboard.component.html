@@ -1,9 +1,24 @@
 <div class = 'container container-alignment'>
   <div class='row row-box'>
     <a *ngFor= 'let appResource of appResources' class='col-md-4 col-hover' [attr.href]='appResource.url' >
-      <div class='dashboard-option'>
-        <h6>{{appResource.name | uppercase}}</h6>
-      </div>
+      <div class="col-lg-5 col-md-8 col-sm-12 col-xs-12">
+        <div class="card card-full">
+            <div class="card-header">
+                {{appResource.name}}
+            </div>
+            <div class="card-block">
+                <div class="card-title">
+                    {{appResource.description}}
+                </div>
+                <div class="card-text">
+                  <img src="assets/images/pic.png"  height="100" width="100">
+                </div>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-outline">Go !!</button>
+            </div>
+        </div>
+    </div>
     </a>
   </div>
 </div>
