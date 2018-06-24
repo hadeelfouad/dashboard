@@ -19,4 +19,9 @@
     clear: both;
 }
 
-/* img.image_click { cursor: pointer; } */
+.header{
+    position: absolute;
+    width: 100%;
+}
+
+img.image_click { margin: -5px; }
