@@ -21,6 +21,10 @@
     transition: opacity 0.3s ease-in;
 }
 
+.col-padding {
+    padding-bottom: 20px;
+}
+
 .col-hover:hover {
     text-decoration: none;
 }
@@ -30,4 +34,5 @@
 }
 .card-full{
     width: 300px;
+    padding-bottom: 10px;
 }
