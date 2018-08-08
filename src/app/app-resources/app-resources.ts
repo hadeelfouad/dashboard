@@ -2,45 +2,51 @@ import { AppResource } from "src/app/app-resources/app-resource"
 
 export const APP_RESOURCES: AppResource[] = [
     { 
-        "name" : "trivia competiton",
-        "url": "http://www.google.com",
-        "pic": "",
-        "description": "Test your knowledge"
+        "name" : "Trivia Competiton",
+        "url": "http://localhost:4200",
+        "pic": "assets/images/trivia.png",
+        "description": "Test your knowledge",
+        "active": true
+    
+    },
+    { 
+        "name" : "Emotional Recognition",
+        "url": "http://localhost:8000",
+        "pic": "assets/images/emotional.png",
+        "description": "See how you're feeling today!",
+        "active": true
     
     },
     { 
         "name" : "fish game",
-        "url": "http://www.google.com",
-        "pic": "",
-        "description": "A new fish game !!"
+        "url": "",
+        "pic": "assets/images/game.png",
+        "description": "A new fish game !!",
+        "active": false
     
     },
     { 
-        "name" : "skills portal",
-        "url": "http://www.google.com",
-        "pic": "",
-        "description": "skills portal"
+        "name" : "Skills Portal",
+        "url": "",
+        "pic": "assets/images/skills.png",
+        "description": "Register your skills",
+        "active": false
     
     },
     { 
-        "name" : "pictionary",
-        "url": "http://www.google.com",
-        "pic": "",
-        "description": "pictionary"
+        "name" : "Pictionary",
+        "url": "",
+        "pic": "assets/images/pictionary.png",
+        "description": "Try out your drawing skills!",
+        "active": false
     
     },
     { 
-        "name" : "suggestion box",
-        "url": "http://www.google.com",
-        "pic": "",
-        "description": "suggestion box"
-    
-    },
-    { 
-        "name" : "GIF generator",
-        "url": "http://www.google.com",
-        "pic": "",
-        "description": "GIF generator"
+        "name" : "Suggestion Box",
+        "url": "",
+        "pic": "assets/images/suggestion.png",
+        "description": "Let us know what you need!",
+        "active": false
     
     }
 ]

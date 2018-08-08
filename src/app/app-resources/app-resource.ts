@@ -4,4 +4,5 @@ export class AppResource {
     url: string;
     description: string;
     pic: string;
+    active: boolean
 }
