@@ -3,7 +3,7 @@ import { AppResource } from "src/app/app-resources/app-resource"
 export const APP_RESOURCES: AppResource[] = [
     { 
         "name" : "Trivia Competiton",
-        "url": "http://localhost:4200",
+        "url": "http://10.207.80.227:4200",
         "pic": "assets/images/trivia.png",
         "description": "Test your knowledge",
         "active": true
