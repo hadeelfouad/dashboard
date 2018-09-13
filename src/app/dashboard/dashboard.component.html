@@ -1,7 +1,7 @@
 <div class='container'>
     <div class='row row-box'>
         <a *ngFor='let appResource of appResources' class='col-lg-4 col-md-6 col-12 col-hover col-padding' [attr.href]='appResource.active? appResource.url: null'
-            target="_blank" [ngClass]="{'disabled': !appResource.active}">
+            [ngClass]="{'disabled': !appResource.active}">
             <!-- <div class="col-lg-5 col-md-8 col-sm-12 col-xs-12 col-padding"> -->
                 <div class="card card-full">
                     <div class="card-header card-header--background">
