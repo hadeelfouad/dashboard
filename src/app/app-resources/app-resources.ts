@@ -1,4 +1,4 @@
-import { AppResource } from "src/app/app-resources/app-resource"
+import { AppResource } from "./app-resource"
 
 export const APP_RESOURCES: AppResource[] = [
     { 

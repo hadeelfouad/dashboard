@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DashboardService } from '../services/dashboard.service';
 import { APP_RESOURCES } from '../app-resources/app-resources';
 
 @Component({
@@ -8,11 +9,12 @@ import { APP_RESOURCES } from '../app-resources/app-resources';
 })
 export class DashboardComponent implements OnInit {
 
-  appResources = APP_RESOURCES;
+  appResources = [];
 
-  constructor() { }
+  constructor(private dashboardService: DashboardService) { }
 
-  ngOnInit() {
+  async ngOnInit() {
+    this.appResources = await this.dashboardService.getActivities();
   }
 
 }
