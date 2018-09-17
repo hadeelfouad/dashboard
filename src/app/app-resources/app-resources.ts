@@ -1,4 +1,4 @@
-import { AppResource } from "src/app/app-resources/app-resource"
+import { AppResource } from "./app-resource"
 
 export const APP_RESOURCES: AppResource[] = [
     { 
@@ -18,11 +18,11 @@ export const APP_RESOURCES: AppResource[] = [
     
     },
     { 
-        "name" : "fish game",
-        "url": "",
+        "name" : "Value Bird",
+        "url": "http://localhost:8800",
         "pic": "assets/images/game.png",
-        "description": "A new fish game !!",
-        "active": false
+        "description": "Collect Dell Values!!",
+        "active": true
     
     },
     { 
